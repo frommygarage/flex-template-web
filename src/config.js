@@ -40,7 +40,7 @@ const bookingProcessAlias = 'preauth-nightly-booking/release-1';
 //
 // Note: translations will use different translation keys for night, day or unit
 // depending on the value chosen.
-const bookingUnitType = 'line-item/night';
+const bookingUnitType = 'line-item/day';
 
 // Should the application fetch available time slots (currently defined as
 // start and end dates) to be shown on listing page.
@@ -77,10 +77,10 @@ const sentryDsn = process.env.REACT_APP_SENTRY_DSN;
 const usingSSL = process.env.REACT_APP_SHARETRIBE_USING_SSL === 'true';
 
 // Address information is used in SEO schema for Organization (http://schema.org/PostalAddress)
-const addressCountry = 'FI';
-const addressRegion = 'Helsinki';
-const postalCode = '00100';
-const streetAddress = 'Bulevardi 14';
+const addressCountry = 'USA';
+const addressRegion = 'Seattle';
+const postalCode = '98109';
+const streetAddress = '1635 Queen Anne Ave N #12';
 
 // Canonical root url is needed in social media sharing and SEO optimization purposes.
 const canonicalRootURL = process.env.REACT_APP_CANONICAL_ROOT_URL;
@@ -89,13 +89,13 @@ const canonicalRootURL = process.env.REACT_APP_CANONICAL_ROOT_URL;
 const siteTitle = 'From My Garage';
 
 // Twitter handle is needed in meta tags (twitter:site). Start it with '@' character
-const siteTwitterHandle = '@sharetribe';
+const siteTwitterHandle = null;
 
 // Instagram page is used in SEO schema (http://schema.org/Organization)
-const siteInstagramPage = null;
+const siteInstagramPage = 'https://www.instagram.com/frommygarage/';
 
 // Facebook page is used in SEO schema (http://schema.org/Organization)
-const siteFacebookPage = 'https://www.facebook.com/Sharetribe/';
+const siteFacebookPage = 'https://www.facebook.com/Frommygarage-100863554740962/';
 
 // Facebook counts shares with app or page associated by this id
 // Currently it is unset, but you can read more about fb:app_id from
@@ -105,7 +105,7 @@ const facebookAppId = null;
 
 const maps = {
   mapboxAccessToken: process.env.REACT_APP_MAPBOX_ACCESS_TOKEN,
-  googleMapsAPIKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+  googleMapsAPIKye: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
 
   // The location search input can be configured to show default
   // searches when the user focuses on the input and hasn't yet typed

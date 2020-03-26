@@ -89,7 +89,7 @@
   --successColor: #2ecc71;
   --successColorDark: #239954;
   --failColor: #ff0000;
-  --attentionColor: #ffaa00;
+  --attentionColor: #e43d3d;
   --bannedColorLight: var(--marketplaceColorLight);
   --bannedColorDark: var(--marketplaceColor);
 
@@ -156,7 +156,7 @@
   /* ================ LocationAutocompleteInput bottom attribution padding ================ */
 
   /* Google Maps needs 72px bottom padding to accommodate logo, Mapbox doesn't have one */
-  --locationAutocompleteBottomPadding: 8px;
+  --locationAutocompleteBottomPadding: 72px;
 
   /* ================ Clearfix solution ================ */
 

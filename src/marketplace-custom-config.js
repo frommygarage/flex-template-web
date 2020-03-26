@@ -4,61 +4,23 @@
 
 export const amenities = [
   {
-    key: 'battery pack',
-    label: 'Battery pack',
+    key: 'Delivery available',
+    label: 'Delivery available',
   },
-  {
-    key: '20 voltage',
-    label: '20 Voltage',
-  },
-  {
-    key: '40 voltage',
-    label: '40 Voltage',
-  },
-  {
-    key: 'own_drinks',
-    label: 'Own drinks allowed',
-  },
-  {
-    key: 'jacuzzi',
-    label: 'Jacuzzi',
-  },
-  {
-    key: 'audiovisual_entertainment',
-    label: 'Audiovisual entertainment',
-  },
-  {
-    key: 'barbeque',
-    label: 'Barbeque',
-  },
-  {
-    key: 'own_food_allowed',
-    label: 'Own food allowed',
-  },
+   {
+    key: 'Accessories included',
+    label: 'Accessories included',
+  }, 
 ];
 
 export const categories = [
-{key: 'Gear: Camera', label: 'Gear: Camera'},
-{key: 'Gear: Camping & Hiking', label: 'Gear: Camping & Hiking'},
-{key: 'Gear: Climbing', label: 'Gear: Climbing'},
-{key: 'Gear: Cycling', label: 'Gear: Cycling'},
-{key: 'Gear: Paddling & Surfing', label: 'Gear: Paddling & Surfing'},
-{key: 'Gear: Snow', label: 'Gear: Snow'},
-{key: 'Gear: Travel', label: 'Gear: Travel'},
-
-{key: 'Equipment: Automotive', label: 'Equipment: Automotive'},
-{key: 'Equipment: Carpet Cleaners & Vacuums', label: 'Equipment: Carpet Cleaners & Vacuums'},
-{key: 'Equipment: Cooling & Heating', label: 'Equipment: Cooling & Heating'},
-{key: 'Equipment: Hand Tools', label: 'Equipment: Hand Tools'},
-{key: 'Equipment: Ladders', label: 'Equipment: Ladders'},
-{key: 'Equipment: Lawn & Garden', label: 'Equipment: Lawn & Garden'},
-{key: 'Equipment: Power Tools', label: 'Equipment: Power Tools'},
-{key: 'Equipment: Pressure Washers', label: 'Equipment: Pressure Washers'},
-
-];
+{key: 'Electronics', label: 'Electronics'},
+{key: 'Outdoor & Sports Equipment', label: 'Outdoor & Sports Equipment'},
+{key: 'Home & Garden Equipment', label: 'Home & Garden Equipment'}];
 
 // Price filter configuration
 // Note: unlike most prices this is not handled in subunits
+
 export const priceFilterConfig = {
   min: 0,
   max: 1000,

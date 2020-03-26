@@ -53,18 +53,19 @@ const SectionLocations = props => {
         {locationLink(
           'Seattle',
           helsinkiImage,
-          '?address=Seattle%2C%20Washington%2C%20United%20States%20of%20America&bounds=47.7779392908564%2C-122.216605992108%2C47.3403950185547%2C-122.441233019046'
+          '??address=Seattle%2C%20Washington%2C%20United%20States%20of%20America&bounds=47.7779392908564%2C-122.216605992108%2C47.3403950185547%2C-122.441233019046'
         )}
         {locationLink(
           'Portland',
           rovaniemiImage,
-          '?address=Portland%2C%20Oregon%2C%20United%20States%20of%20America&bounds=45.858099013046%2C-122.441059986416%2C45.3794799927623%2C-122.929215816001'
+          '?address=address=Portland%2C%20Oregon%2C%20United%20States%20of%20America&bounds=45.858099013046%2C-122.441059986416%2C45.3794799927623%2C-122.929215816001'
         )}
         {locationLink(
-          'San Francisco Bay Area',
+          'SF Bay Area',
           rukaImage,
-          '?address=San%20Francisco%2C%20California%2C%20United%20States%20of%20America&bounds=37.9362767%2C-121.96495537%2C37.4358923%2C-122.54932319&mapSearch=true'
+          '?San%20Francisco%2C%20California%2C%20United%20States%20of%20America&bounds=37.9362767%2C-121.96495537%2C37.4358923%2C-122.54932319'
         )}
+
       </div>
     </div>
   );

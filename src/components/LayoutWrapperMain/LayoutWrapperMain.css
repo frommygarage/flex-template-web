@@ -1,6 +1,6 @@
 .root {
   /* Expand to the full remaining width of the viewport */
-  display: inline-flex;
+  display: left;
   flex-direction: column;
   width: 100%;
 }

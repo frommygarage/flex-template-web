@@ -1,7 +1,7 @@
 @import '../../marketplace.css';
 
 .title {
-  @apply --marketplaceH2FontStyles;
+  @apply --marketplaceH1FontStyles;
   margin-top: 0;
 }
 
@@ -38,6 +38,7 @@
 }
 
 .createListingLink {
+  @apply --marketplaceH2FontStyles;
   margin-top: 36px;
 
   @media (--viewportMedium) {

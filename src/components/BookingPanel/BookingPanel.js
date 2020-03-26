@@ -86,8 +86,8 @@ const BookingPanel = props => {
 
   const unitTranslationKey = isDaily
     ? 'BookingPanel.perDay'
-    : isDaily
-    ? 'BookingPanel.perDay'
+    : isNightly
+    ? 'BookingPanel.perNight'
     : 'BookingPanel.perUnit';
 
   const classes = classNames(rootClassName || css.root, className);

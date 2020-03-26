@@ -94,7 +94,7 @@ class TopbarComponent extends Component {
     redirectToURLWithoutModalState(this.props, 'mobilesearch');
   }
 
-  handleSubmit(values) {
+   handleSubmit(values) {
     const { currentSearchParams } = this.props;
     const keywords = values.keywords;
     const { history } = this.props;
@@ -187,6 +187,7 @@ class TopbarComponent extends Component {
       <div className={classes}>
         <div className={classNames(mobileRootClassName || css.container, mobileClassName)}>
           <Button
+          
             rootClassName={css.menu}
             onClick={this.handleMobileMenuOpen}
             title={intl.formatMessage({ id: 'Topbar.menuIcon' })}
