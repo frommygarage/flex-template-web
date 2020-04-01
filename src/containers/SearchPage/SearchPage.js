@@ -66,6 +66,10 @@ export class SearchPageComponent extends Component {
     // https://www.sharetribe.com/docs/references/extended-data/#data-schema
 
     return {
+       keywordFilter: {
+        paramName: 'keywords',
+        config: keywordFilterConfig,
+      },
       categoryFilter: {
         paramName: 'pub_category',
         options: categories,
@@ -81,10 +85,6 @@ export class SearchPageComponent extends Component {
       dateRangeFilter: {
         paramName: 'dates',
         config: dateRangeFilterConfig,
-      },
-      keywordFilter: {
-        paramName: 'keywords',
-        config: keywordFilterConfig,
       },
     };
   }

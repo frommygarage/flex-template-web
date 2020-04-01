@@ -15,8 +15,8 @@ export const amenities = [
 
 export const categories = [
 {key: 'Electronics', label: 'Electronics'},
-{key: 'Outdoor & Sports Equipment', label: 'Outdoor & Sports Equipment'},
-{key: 'Home & Garden Equipment', label: 'Home & Garden Equipment'}];
+{key: 'Sports & Outdoors', label: 'Sports & Outdoors'},
+{key: 'Home, Garden & Tools', label: 'Home, Garden & Tools'}];
 
 // Price filter configuration
 // Note: unlike most prices this is not handled in subunits
@@ -24,7 +24,7 @@ export const categories = [
 export const priceFilterConfig = {
   min: 0,
   max: 1000,
-  step: 5,
+  step: 1,
 };
 
 // Activate booking dates filter on search page

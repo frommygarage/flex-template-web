@@ -35,7 +35,7 @@ const AboutPage = () => {
           <h1 className={css.pageTitle}>Loan it like you own it!</h1>
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>What's the point in buying expensive items that you rarely use or can't make money on??</p>
+              <p>What's the point in buying expensive items that you rarely use or can't make money on?</p>
             </div>
 
             <div className={css.contentMain}>
